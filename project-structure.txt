@@ -1,0 +1,44 @@
+DSM-Filestation-demo/
+├── app/
+│   ├── components/
+│   │   ├── control-panel.tsx
+│   │   └── file-manager.tsx
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── HomePage.tsx
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── ui/
+│   │   ├── button.tsx
+│   │   ├── checkbox.tsx
+│   │   ├── dialog.tsx
+│   │   ├── input.tsx
+│   │   ├── resizable.tsx
+│   │   ├── scroll-area.tsx
+│   │   ├── sidebar.tsx
+│   │   └── table.tsx
+│   ├── desktop-icons.tsx
+│   ├── file-properties-dialog.tsx
+│   └── properties-portal.tsx
+├── lib/
+│   └── utils.ts
+├── public/
+│   └── placeholder.svg
+├── store/
+│   ├── controlPanelSlice.ts
+│   ├── fileManagerSlice.ts
+│   └── store.ts
+├── styles/
+│   └── globals.css
+├── types/
+│   └── index.d.ts
+├── .eslintrc.json
+├── .gitignore
+├── next.config.js
+├── package.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.js
+└── tsconfig.json
+

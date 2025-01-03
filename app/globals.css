@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+#properties-portal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.file-station {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.file-station button {
+  font-size: 12px;
+}
+
+.file-station input {
+  font-size: 12px;
+}
+
+.file-station table {
+  font-size: 12px;
+}
+
